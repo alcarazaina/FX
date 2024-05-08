@@ -1,5 +1,6 @@
 module com.aulafx.prueba1 {
-    requires javafx.controls;
+    // necesito estos módulos
+    requires transitive javafx.controls;
     requires javafx.fxml;
 
 
