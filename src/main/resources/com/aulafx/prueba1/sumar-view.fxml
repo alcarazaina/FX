@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<!-- necesitamos un contenedor que tenga dentro toodos los elementos del formulario CON UN fx:controller con la ruta al controlador-->
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="256.0" prefWidth="393.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.aulafx.prueba1.controlador.SumarController">
+   <!-- Toodos los elementos dentro del contenedor son los hijos - children -->
+   <children>
+      <!-- Etiquetas -->
+      <Label layoutX="15.0" layoutY="50.0" text="Operador 1" />
+      <Label layoutX="15.0" layoutY="100.0" text="Operador 2" />
+      <Label layoutX="15.0" layoutY="200.0" text="Resultado" />
+      <Label fx:id="lblResultado" layoutX="300.0" layoutY="100.0" />
+
+      <!-- Campos de texto: tienen que tener fx:id, porque tienen una función en el controller-->
+      <TextField fx:id="txtOperador" layoutX="150.0" layoutY="100.0" />
+      <TextField fx:id="txtOperador2" layoutX="150.0" layoutY="50.0" />
+
+      <!--Boton: imprescindible fx:id-->
+      <Button fx:id="btnSumar" layoutX="200.0" layoutY="137.0" mnemonicParsing="false" text="Sumar" />
+   </children>
+</AnchorPane>
