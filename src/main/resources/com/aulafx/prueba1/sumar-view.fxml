@@ -12,13 +12,13 @@
       <Label layoutX="15.0" layoutY="50.0" text="Operador 1" />
       <Label layoutX="15.0" layoutY="100.0" text="Operador 2" />
       <Label layoutX="15.0" layoutY="200.0" text="Resultado" />
-      <Label fx:id="lblResultado" layoutX="300.0" layoutY="100.0" />
+      <Label fx:id="lblResultado" layoutX="222.0" layoutY="191.0" prefHeight="18.0" prefWidth="0.0" />
 
       <!-- Campos de texto: tienen que tener fx:id, porque tienen una función en el controller-->
       <TextField fx:id="txtOperador" layoutX="150.0" layoutY="100.0" />
       <TextField fx:id="txtOperador2" layoutX="150.0" layoutY="50.0" />
 
       <!--Boton: imprescindible fx:id-->
-      <Button fx:id="btnSumar" layoutX="200.0" layoutY="137.0" mnemonicParsing="false" text="Sumar" />
+      <Button fx:id="btnSumar" layoutX="200.0" layoutY="137.0" mnemonicParsing="false" onAction="#sumar" text="Sumar" />
    </children>
 </AnchorPane>
