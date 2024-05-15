@@ -16,8 +16,6 @@ public class SumarController {
     @FXML
     private TextField txtOperador2;
     @FXML
-    private Button btnSumar;
-    @FXML
     protected void sumar(ActionEvent action){
         int operador = Integer.parseInt(txtOperador.getText());
         int operador2 = Integer.parseInt(txtOperador2.getText());
