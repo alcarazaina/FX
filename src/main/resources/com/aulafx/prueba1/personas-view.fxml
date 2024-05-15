@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<!-- necesitamos un contenedor que tenga dentro toodos los elementos del formulario CON UN fx:controller con la ruta al controlador-->
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="388.0" prefWidth="524.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.aulafx.prueba1.controlador.PersonasController">
+   <!-- Toodos los elementos dentro del contenedor son los hijos - children -->
+   <children>
+      <!-- Etiquetas -->
+      <Label layoutX="15.0" layoutY="42.0" text="Nombre" />
+      <Label layoutX="15.0" layoutY="100.0" text="Apellidos" />
+      <Label layoutX="15.0" layoutY="166.0" text="Edad" />
+
+      <!-- Campos de texto: tienen que tener fx:id, porque tienen una función en el controller-->
+      <TextField fx:id="txtNombre" layoutX="14.0" layoutY="130.0" />
+      <TextField fx:id="txtApellidos" layoutX="14.0" layoutY="68.0" />
+      <TextField fx:id="txtEdad" layoutX="14.0" layoutY="194.0" />
+
+      <!--Boton: imprescindible fx:id-->
+      <Button fx:id="btnAgregar" layoutX="36.0" layoutY="249.0" mnemonicParsing="false" text="Agregar persona" />
+      <TreeTableView layoutX="271.0" layoutY="94.0" prefHeight="200.0" prefWidth="226.0" fx:id="tblPersonas">
+        <columns>
+          <TreeTableColumn fx:id="colNombre" prefWidth="75.0" text="Nombre" />
+          <TreeTableColumn fx:id="colApellidos" prefWidth="75.0" text="Apellido" />
+          <TreeTableColumn fx:id="colEdad" prefWidth="75.0" text="Edad" />
+        </columns>
+      </TreeTableView>
+   </children>
+</AnchorPane>
