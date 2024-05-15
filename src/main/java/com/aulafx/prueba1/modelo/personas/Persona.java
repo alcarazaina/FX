@@ -1,4 +1,4 @@
-package com.aulafx.prueba1;
+package com.aulafx.prueba1.modelo.personas;
 
 public class Persona {
     private String nombre;
