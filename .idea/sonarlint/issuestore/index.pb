@@ -15,7 +15,5 @@ h
 8src/main/java/com/aulafx/prueba1/modelo/AppPersonas.java,d\9\d9250eb60bad96b41af5338694fbc1c39876471d
 t
 Dsrc/main/java/com/aulafx/prueba1/controlador/PersonasController.java,e\5\e5c6acdc88613d2d75dd98fdf7aa7f114ca05738
-^
-.src/main/java/com/aulafx/prueba1/Personas.java,e\1\e146913b4402e84e7eeae9bad56bac4f3eabca46
-]
--src/main/java/com/aulafx/prueba1/Persona.java,9\c\9c12d1e69ece9d4c21b28c2d1bacf828ecaaf63b
+m
+=src/main/java/com/aulafx/prueba1/modelo/personas/Persona.java,c\c\ccb605216d75774fadcd397e2c22d087ca8ffddb

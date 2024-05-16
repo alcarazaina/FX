@@ -20,12 +20,12 @@
 
       <!--Boton: imprescindible fx:id-->
       <Button fx:id="btnAgregar" layoutX="36.0" layoutY="249.0" mnemonicParsing="false" text="Agregar persona" onAction="#agregarPersonas"/>
-      <TreeTableView layoutX="271.0" layoutY="94.0" prefHeight="200.0" prefWidth="226.0" fx:id="tblPersonas">
+      <TableView layoutX="271.0" layoutY="94.0" prefHeight="200.0" prefWidth="226.0" fx:id="tblPersonas">
         <columns>
-          <TreeTableColumn fx:id="colNombre" prefWidth="75.0" text="Nombre" />
-          <TreeTableColumn fx:id="colApellidos" prefWidth="75.0" text="Apellido" />
-          <TreeTableColumn fx:id="colEdad" prefWidth="75.0" text="Edad" />
+          <TableColumn fx:id="colNombre" prefWidth="75.0" text="Nombre" />
+          <TableColumn fx:id="colApellidos" prefWidth="75.0" text="Apellido" />
+          <TableColumn fx:id="colEdad" prefWidth="75.0" text="Edad" />
         </columns>
-      </TreeTableView>
+      </TableView>
    </children>
 </AnchorPane>

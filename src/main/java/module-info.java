@@ -7,7 +7,10 @@ module com.aulafx.prueba1 {
     exports com.aulafx.prueba1.modelo;
     opens com.aulafx.prueba1.modelo to javafx.fxml;
 
+    exports com.aulafx.prueba1.modelo.personas;
 
     exports com.aulafx.prueba1.controlador;
     opens com.aulafx.prueba1.controlador to javafx.fxml;
+
+
 }
